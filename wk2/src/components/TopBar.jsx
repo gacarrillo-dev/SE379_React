@@ -17,14 +17,18 @@ const TopBar = () => {
     }
 
     return (
-        <div className={'top-bar'}>
-            <h1>My App</h1>
-            <button
-                className={'submit-button'}
-                onClick={handleSignUpForm}
-            >Sign Up</button>
+        <>
+            <div className={'top-bar'}>
+                <h1>Week 2 - Validation Form</h1>
+                <button
+                    className={'top-bar-button'}
+                    onClick={handleSignUpForm}
+                >Sign Up</button>
+
+            </div>
             {showForm && <SignUpForm handleSignUpForm={handleSignUpForm}/>}
-        </div>
+        </>
+
     );
 }
 
