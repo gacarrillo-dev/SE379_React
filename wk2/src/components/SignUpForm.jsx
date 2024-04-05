@@ -1,7 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
+import PropTypes from "prop-types";
 
-const SignUpForm = (props) =>{
+const SignUpForm = ({ handleForm }) =>{
 
     const [formState, setFormState] = useState({firstName: '', lastName: '', email: ''});
     const [errors, setErrors] = useState({});
@@ -15,17 +16,17 @@ const SignUpForm = (props) =>{
         let errors = {};
 
         // check if first name is empty
-        if (!formState.firstName) {
+        if (!formState.firstName.trim()) {
             errors.firstName = '** First Name is required';
             isValid = false;
         }
         // check if last is empty
-        if (!formState.lastName) {
+        if (!formState.lastName.trim()) {
             errors.lastName = '** Last Name is required';
             isValid = false;
         }
         // check if email is empty
-        if (!formState.email) {
+        if (!formState.email.trim()) {
             errors.email = '** Email is required';
             isValid = false;
         }
@@ -53,8 +54,7 @@ const SignUpForm = (props) =>{
         if (!validateForm()) {
             return;
         }
-        // eslint-disable-next-line react/prop-types
-        props.handleSignUpForm();
+        handleForm();
         console.log('Form submitted', formState);
         clearForm();
     };
@@ -99,7 +99,7 @@ const SignUpForm = (props) =>{
                     type={'email'}
                     value={formState.email}
                     name={'email'}
-                    className={`form-control ${!emailValid ? 'invalid-email' : ''}`}
+                    className={`form-control`}
                     onChange={handleInputChange}
                 />
                 {!emailValid && <p id="emailError" className={'error'}>Please enter valid email address.</p>}
@@ -114,5 +114,9 @@ const SignUpForm = (props) =>{
 
     );
 }
+
+SignUpForm.propTypes = {
+    handleForm: PropTypes.func.isRequired,
+};
 
 export default SignUpForm;

@@ -1,5 +1,5 @@
 import SignUpForm from "./SignUpForm.jsx";
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const TopBar = () => {
     const [showForm, setShowForm] = useState(false);
@@ -26,7 +26,7 @@ const TopBar = () => {
                 >Sign Up</button>
 
             </div>
-            {showForm && <SignUpForm handleSignUpForm={handleSignUpForm}/>}
+            {showForm && <SignUpForm handleForm={handleSignUpForm}/>}
         </>
 
     );
