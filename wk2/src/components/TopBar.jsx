@@ -1,5 +1,5 @@
 import SignUpForm from "./SignUpForm.jsx";
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const TopBar = () => {
     const [showForm, setShowForm] = useState(false);

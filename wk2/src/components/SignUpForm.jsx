@@ -4,29 +4,30 @@ import PropTypes from "prop-types";
 
 const SignUpForm = ({ handleForm }) =>{
 
-    const [formState, setFormState] = useState({firstName: '', lastName: '', email: ''});
+    const [formData, setFormData] = useState({firstName: '', lastName: '', email: ''});
     const [errors, setErrors] = useState({});
     const [emailValid, setEmailValid] = useState(true);
-
     const emailRegex = /\S+@\S+\.\S+/;
+
     const validateEmail = (email) => emailRegex.test(email);
+
     const validateForm = () => {
 
         let isValid = true;
         let errors = {};
 
         // check if first name is empty
-        if (!formState.firstName.trim()) {
+        if (!formData.firstName.trim()) {
             errors.firstName = '** First Name is required';
             isValid = false;
         }
         // check if last is empty
-        if (!formState.lastName.trim()) {
+        if (!formData.lastName.trim()) {
             errors.lastName = '** Last Name is required';
             isValid = false;
         }
         // check if email is empty
-        if (!formState.email.trim()) {
+        if (!formData.email.trim()) {
             errors.email = '** Email is required';
             isValid = false;
         }
@@ -36,17 +37,18 @@ const SignUpForm = ({ handleForm }) =>{
     };
 
     const handleInputChange = (e) => {
-        const { name, value } = e.target;
 
-        if (name === 'email') {
-            const isValid = validateEmail(value);
+        if (e.target.name === 'email') {
+            const isValid = validateEmail(e.target.value);
+            setErrors({ ...errors, email: isValid ? '' : '** Email is not valid' } );
             setEmailValid(isValid);
         }
-        setFormState({ ...formState, [name]: value });
+
+        setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
     const clearForm = () => {
-        setFormState({ firstName: '', lastName: '', email: '' });
+        setFormData({ firstName: '', lastName: '', email: '' });
     }
 
     const handleSubmit = (e) => {
@@ -55,7 +57,7 @@ const SignUpForm = ({ handleForm }) =>{
             return;
         }
         handleForm();
-        console.log('Form submitted', formState);
+        console.log('Form submitted', formData);
         clearForm();
     };
 
@@ -71,7 +73,7 @@ const SignUpForm = ({ handleForm }) =>{
                 <label className={'form-label'}>First Name:</label>
                 <input
                     type={'text'}
-                    value={formState.firstName}
+                    value={formData.firstName}
                     name={'firstName'}
                     className={'form-control'}
                     onChange={handleInputChange}
@@ -84,7 +86,7 @@ const SignUpForm = ({ handleForm }) =>{
                 <label className={'form-label'}>Last Name:</label>
                 <input
                     type={'text'}
-                    value={formState.lastName}
+                    value={formData.lastName}
                     name={'lastName'}
                     className={'form-control'}
                     onChange={handleInputChange}
@@ -97,12 +99,12 @@ const SignUpForm = ({ handleForm }) =>{
                 <label className={'form-label'}>Email:</label>
                 <input
                     type={'email'}
-                    value={formState.email}
+                    value={formData.email}
                     name={'email'}
                     className={`form-control`}
                     onChange={handleInputChange}
                 />
-                {!emailValid && <p id="emailError" className={'error'}>Please enter valid email address.</p>}
+                {!emailValid && <p id="emailError" className={'error'}>{errors.email}.</p>}
             </div>
 
             {/*Form Buttons*/}
@@ -116,7 +118,7 @@ const SignUpForm = ({ handleForm }) =>{
 }
 
 SignUpForm.propTypes = {
-    handleForm: PropTypes.func.isRequired,
+    handleForm: PropTypes.func,
 };
 
 export default SignUpForm;
