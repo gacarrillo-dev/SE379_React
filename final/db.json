@@ -1,0 +1,372 @@
+{
+  "games": [
+    {
+      "id": "1",
+      "title": "Elden Ring",
+      "price": 59.9,
+      "description": "Embark on a grand adventure in a world full of mystery and peril. Create your character, defeat colossal foes, and unravel the lore of the Lands Between.",
+      "category": "RPG",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 10200
+      }
+    },
+    {
+      "id": "2",
+      "title": "The Witcher 3: Wild Hunt",
+      "price": 39.99,
+      "description": "Explore a war-torn kingdom as Geralt of Rivia, a monster hunter searching for his missing adopted daughter. Experience complex characters and a non-linear story in an open world.",
+      "category": "Action RPG",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 35000
+      }
+    },
+    {
+      "id": "3",
+      "title": "Red Dead Redemption 2",
+      "price": 59.99,
+      "description": "Live the life of an outlaw in America's unforgiving heartland. The game's vast and atmospheric world also provides the foundation for a brand new online multiplayer experience.",
+      "category": "Action-Adventure",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 29000
+      }
+    },
+    {
+      "id": "4",
+      "title": "Civilization VI",
+      "price": 49.99,
+      "description": "Lead a civilization from the Stone Age to the Information Age. Wage war, conduct diplomacy, advance your culture, and go head-to-head with history’s greatest leaders.",
+      "category": "Strategy",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Civilization_VI_cover_art.jpg",
+      "rating": {
+        "rate": 4.4,
+        "count": 8700
+      }
+    },
+    {
+      "id": "5",
+      "title": "Final Fantasy XV",
+      "price": 49.99,
+      "description": "Join Prince Noctis and his closest friends as they fight against the empire in an effort to take back their fallen kingdom in this stunning fantasy JRPG.",
+      "category": "JRPG",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5a/FF_XV_cover_art.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 11000
+      }
+    },
+    {
+      "id": "6",
+      "title": "Assassin's Creed Valhalla",
+      "price": 59.99,
+      "description": "Become Eivor, a legendary Viking raider on a quest for glory. Explore England's Dark Ages as you raid your enemies, grow your settlement, and build your political power.",
+      "category": "Action RPG",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/ff/Assassin%27s_Creed_Valhalla_cover.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 9000
+      }
+    },
+    {
+      "id": "7",
+      "title": "Animal Crossing: New Horizons",
+      "price": 59.99,
+      "description": "Escape to a deserted island and create your own paradise as you explore, create, and customize in the Animal Crossing: New Horizons game.",
+      "category": "Simulation",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 25000
+      }
+    },
+    {
+      "id": "8",
+      "title": "Cyberpunk 2077",
+      "price": 59.99,
+      "description": "Become a cyberpunk, an urban mercenary equipped with cybernetic enhancements and build your legend on the streets of Night City.",
+      "category": "Action RPG",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+      "rating": {
+        "rate": 3.5,
+        "count": 22000
+      }
+    },
+    {
+      "id": "9",
+      "title": "Halo Infinite",
+      "price": 59.99,
+      "description": "Step back into the armor of the legendary Master Chief and battle against formidable foes across an epic sci-fi landscape.",
+      "category": "First-Person Shooter",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/14/Halo_Infinite.png",
+      "rating": {
+        "rate": 4.5,
+        "count": 9400
+      }
+    },
+    {
+      "id": "10",
+      "title": "Call of Duty: Modern Warfare",
+      "price": 59.99,
+      "description": "Engage in visceral gunplay, experience thrilling Multiplayer modes, and tackle gripping single-player campaigns in this critically acclaimed first-person shooter.",
+      "category": "First-Person Shooter",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/Call_of_Duty_Modern_Warfare_%282019%29_cover.jpg",
+      "rating": {
+        "rate": 4.3,
+        "count": 31000
+      }
+    },
+    {
+      "id": "11",
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "price": 59.99,
+      "description": "Embark on a captivating adventure through a sprawling open world in this boundary-breaking installment from the Zelda series.",
+      "category": "Action-Adventure",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 40000
+      }
+    },
+    {
+      "id": "12",
+      "title": "Super Mario Odyssey",
+      "price": 59.99,
+      "description": "Join Mario on a massive, globe-trotting 3D adventure and use his incredible new abilities to collect Moons so you can power up your airship, the Odyssey.",
+      "category": "Platformer",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 21000
+      }
+    },
+    {
+      "id": "13",
+      "title": "Persona 5 Royal",
+      "price": 59.99,
+      "description": "Immerse yourself in the world of Tokyo high school life and dungeon-crawling adventures in this expanded edition of the acclaimed Persona 5.",
+      "category": "JRPG",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b0/Persona_5_cover_art.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 8500
+      }
+    },
+    {
+      "id": "14",
+      "title": "Minecraft",
+      "price": 26.95,
+      "description": "Explore infinite worlds and build everything from the simplest of homes to the grandest of castles in this global phenomenon.",
+      "category": "Sandbox",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 48000
+      }
+    },
+    {
+      "id": "15",
+      "title": "Dark Souls III",
+      "price": 59.99,
+      "description": "Confront your darkness as you journey through a devastated world filled with colossal enemies and environments. One of the toughest RPGs around, are you ready to challenge yourself?",
+      "category": "Action RPG",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bb/Dark_souls_3_cover_art.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 16000
+      }
+    },
+    {
+      "id": "16",
+      "title": "Sekiro: Shadows Die Twice",
+      "price": 59.99,
+      "description": "Carve your own clever path to vengeance in this award-winning action-adventure from the creators of Dark Souls.",
+      "category": "Action-Adventure",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6e/Sekiro_art.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 11000
+      }
+    },
+    {
+      "id": "17",
+      "title": "Monster Hunter: World",
+      "price": 29.99,
+      "description": "Hunt gigantic monsters in rich, expansive environments in this epic, critically acclaimed RPG.",
+      "category": "Action RPG",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Monster_Hunter_World_cover_art.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 15000
+      }
+    },
+    {
+      "id": "18",
+      "title": "Overwatch",
+      "price": 39.99,
+      "description": "Team up and power up to deliver payload in this highly stylized team-based shooter that has taken the world by storm.",
+      "category": "First-Person Shooter",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Overwatch_cover_art.jpg",
+      "rating": {
+        "rate": 4.2,
+        "count": 21000
+      }
+    },
+    {
+      "id": "19",
+      "title": "Grand Theft Auto V",
+      "price": 29.99,
+      "description": "Experience the world of Grand Theft Auto V like never before with across-the-board graphical and technical enhancements for new and returning players.",
+      "category": "Action-Adventure",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+      "rating": {
+        "rate": 4.8,
+        "count": 50000
+      }
+    },
+    {
+      "id": "20",
+      "title": "Fortnite",
+      "price": 0,
+      "description": "Join 100 players in epic battle royale matches. Build and fight your way to victory in this popular free-to-play shooter.",
+      "category": "Battle Royale",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/FortniteLogo.svg/375px-FortniteLogo.svg.png",
+      "rating": {
+        "rate": 3.8,
+        "count": 86000
+      }
+    },
+    {
+      "id": "21",
+      "title": "League of Legends",
+      "price": 0,
+      "description": "Compete with friends and foes in this highly competitive, fast-paced action-strategy game designed for those who crave a hard-fought victory.",
+      "category": "MOBA",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/League_of_Legends_2019_vector.svg/330px-League_of_Legends_2019_vector.svg.png",
+      "rating": {
+        "rate": 4.1,
+        "count": 75000
+      }
+    },
+    {
+      "id": "22",
+      "title": "Apex Legends",
+      "price": 0,
+      "description": "Master an ever-growing roster of diverse legends, deep tactical squad play, and bold new innovations that level up the Battle Royale experience—all within a rugged world where anything goes.",
+      "category": "Battle Royale",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/db/Apex_legends_cover.jpg",
+      "rating": {
+        "rate": 4.3,
+        "count": 18000
+      }
+    },
+    {
+      "id": "23",
+      "title": "FIFA 2021",
+      "price": 59.99,
+      "description": "Hit the pitch in the latest edition of the world's best-selling football franchise. Feel next level in FIFA 21, powered by Frostbite™.",
+      "category": "Sports",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bb/FIFA_21_Standard_Edition_Cover.jpg",
+      "rating": {
+        "rate": 4,
+        "count": 11000
+      }
+    },
+    {
+      "id": "24",
+      "title": "NBA 2K21",
+      "price": 59.99,
+      "description": "NBA 2K21 is the latest release in the world-renowned, best-selling NBA 2K series. With exciting improvements upon its best-in-class gameplay, competitive and community online features, and deep, varied game modes, NBA 2K21 offers one-of-a-kind immersion into all facets of NBA basketball and culture.",
+      "category": "Sports",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a2/NBA_2K21_-_Damian_Lilliard_cover_art.jpg",
+      "rating": {
+        "rate": 3.7,
+        "count": 9500
+      }
+    },
+    {
+      "id": "25",
+      "title": "Doom Eternal",
+      "price": 59.99,
+      "description": "Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
+      "category": "First-Person Shooter",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9d/Cover_Art_of_Doom_Eternal.png",
+      "rating": {
+        "rate": 4.5,
+        "count": 6500
+      }
+    },
+    {
+      "id": "26",
+      "title": "The Elder Scrolls V: Skyrim",
+      "price": 39.99,
+      "description": "The Empire of Tamriel is on the edge. The High King of Skyrim has been murdered. Ally with one of the factions or go at it alone in this highly celebrated open-world RPG.",
+      "category": "RPG",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 30000
+      }
+    },
+    {
+      "id": "27",
+      "title": "Ghost of Tsushima",
+      "price": 59.99,
+      "description": "In the late 13th century, the Mongol empire has laid waste to entire nations along their campaign to conquer the East. Tsushima Island is all that stands between mainland Japan and a massive Mongol invasion fleet led by the cunning and ruthless general, Khotun Khan. As the island burns in the wake of the first wave of the Mongol assault, samurai warrior Jin Sakai stands resolute. As one of the last surviving members of his clan, Jin is determined to do whatever it takes, at any cost, to protect his people and reclaim his home. He must set aside the traditions that have shaped him as a warrior to forge a new path, the way of the Ghost, and wage an unconventional war for the freedom of Tsushima.",
+      "category": "Action-Adventure",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/Ghost_of_Tsushima.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 8000
+      }
+    },
+    {
+      "id": "28",
+      "title": "Bloodborne",
+      "price": 19.99,
+      "description": "Hunt your nightmares as you search for answers in the ancient city of Yharnam, now cursed with a strange endemic illness spreading through the streets like wildfire. Danger, death and madness lurk around every corner of this dark and horrific world, and you must discover its darkest secrets in order to survive.",
+      "category": "Action RPG",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 11000
+      }
+    },
+    {
+      "id": "29",
+      "title": "Death Stranding",
+      "price": 59.99,
+      "description": "From legendary game creator Hideo Kojima comes an all-new, genre-defying experience. Sam Bridges must brave a world utterly transformed by the Death Stranding. Carrying the disconnected remnants of our future in his hands, he embarks on a journey to reconnect the shattered world one step at a time.",
+      "category": "Action-Adventure",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/22/Death_Stranding.jpg",
+      "rating": {
+        "rate": 4.3,
+        "count": 9200
+      }
+    },
+    {
+      "id": "30",
+      "title": "Hitman 3",
+      "price": 59.99,
+      "description": "Agent 47 returns as a ruthless professional in Hitman 3 for the most important contracts of his entire career. Embark on an intimate journey of darkness and hope in the dramatic conclusion to the world of assassination trilogy. Experience a globetrotting adventure and visit exotic locations that are meticulously detailed and packed full of creative opportunities.",
+      "category": "Stealth",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/Hitman_3_Packart.jpg",
+      "rating": {
+        "rate": 4.4,
+        "count": 5000
+      }
+    },
+    {
+      "id": "a13f",
+      "title": "test",
+      "price": 1000,
+      "description": "test",
+      "category": "test",
+      "image": "test"
+    }
+  ]
+}
